@@ -1,0 +1,708 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charaset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>novel2</title>
+
+<link rel="stylesheet" href="css/reset.css"/> 
+<link rel="stylesheet" href="css/game.css"/> 
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script> 
+
+ 
+</head>
+<body>
+    <注意喚起><br>
+    ※当作品は音声が再生されます<br>
+    予めボリューム、イヤホンをご確認ください。<br>
+    環境によっては音声が再生されないこともあります<br>
+
+
+ <div class="cm0">
+ 
+    <button class="chan" onclick="action()">次へ</button><br>
+    
+<div id="cm1">
+   
+   
+    <div>
+        
+        <p data-text-split >
+       
+        スタート<br>
+    当作品は音声が再生されます<br>
+予めボリューム、イヤホンをご確認ください。</p>
+      </div>
+ </div>
+
+  
+   
+ <div id="cm2" style="display:none">
+
+   
+
+    <img  src="game1/download.png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            ある人気のない山奥で車が止まる。<br>
+            少しそわそわとした様子の運転手が<br>
+            トランクに手をかける
+         </p>
+    </div>
+</div>
+</div>
+    
+<div id="cm3" style="display:none">
+
+    <img  src="game1/download.png"><br>
+    <div class="box27">
+        
+        <div class="border">
+           
+        </audio>
+            <span class="box-title"></span>
+        <p data-text-split> 
+            「大人しくしてた？」
+         </p>
+
+         
+    </div>
+</div>
+</div>
+
+<div id="cm4" style="display:none">
+
+    <img  src="game1/image (6).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+            「ううううううっ……！」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm5" style="display:none">
+
+    <img  src="game1/image (6).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+           開かれたトランクには両手を縄で縛られ口を<br>
+           ガムテープで塞がれた少女がいた。
+           
+         </p>
+    </div>
+</div>
+</div>
+  
+
+<div id="cm6" style="display:none">
+
+    <img  src="game1/image (5).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+           厳重に縛った縄をほどこうと必死で<br>
+           もがき続けている。
+            
+           
+         </p>
+    </div>
+</div>
+</div>
+  
+
+<div id="cm7" style="display:none">
+
+    <img  src="game1/image (5).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+          「苦しいよね？<br>
+          すこし外してあげるけど、騒いだらダメよ」
+            
+           
+         </p>
+    </div>
+</div>
+</div>
+  
+<div id="cm8" style="display:none">
+
+    <img  src="game1/image (5).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+           口のガムテープから剥がした
+            
+           
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm9" style="display:none">
+
+    <img  src="game1/image (7).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+        「ぷはっ！」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm10" style="display:none">
+
+    <img  src="game1/image (7).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+        「はぁ…はぁ…」
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm11" style="display:none">
+
+    <img  src="game1/image (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+      「ごめんね。こんな狭いところに閉じ込めて」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm12" style="display:none">
+
+    <img  src="game1/image (4).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+      「あの……おうちに帰して……ください」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm13" style="display:none">
+
+    <img  src="game1/image (4).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+       少女は震える声で、懇願するが運転手は<br>
+       首を横に振る
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm14" style="display:none">
+
+    <img  src="game1/image (4).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+      「ごめんね、暫くは自由にしてあげられないの」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm15" style="display:none">
+    <img  src="game1/image (4).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            「命を奪おうとか、そういうことはしないから<br>
+            安心してね」
+         </p>
+    </div>
+</div>
+</div>
+  
+<div id="cm16" style="display:none">
+
+    <img  src="game1/image (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            などと言って、少女も安心するほど単純<br>
+            ではない。
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm17" style="display:none">
+
+    <img  src="game1/image (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            「とりあえず、今開けたのは少し食事と水分<br>
+            摂ってもらおうと思ってね」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm18" style="display:none">
+
+    <img  src="game1/image1 (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+           と言って、ビニール袋から食べ物と水を取り出す。
+            
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm19" style="display:none">
+
+    <img  src="game1/image1 (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+            「はい、お口開けて」
+            
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm20" style="display:none">
+
+    <img  src="game1/image1 (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+          「んんっ……」
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm21" style="display:none">
+
+    <img  src="game1/image1 (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+          少女は、さっきまでずっと口を塞がれていた<br>
+          せいで口周りが涎でべたべたであるのに気付<br>
+          いて恥ずかしそうだ
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm22" style="display:none">
+
+    <img  src="game1/image1 (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+        「あぁ、少し涎ついてるね」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm23" style="display:none">
+
+    <img  src="game1/image1 (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+         運転手は、タオルで口周りをぬぐってから<br>
+         ちいさな一口サイズのパンを口に近づける
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm24" style="display:none">
+
+    <img  src="game1/image1 (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+            「解いてくれないんだ……」
+         </p>
+    </div>
+</div>
+</div>
+
+
+
+<div id="cm25" style="display:none">
+
+    <img  src="game1/image1 (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       口だけで、まるで犬みたいに。<br>
+       恥ずかしそうに口を結ぶ彼女だったが<br>
+       長いこと閉じ込めれた空腹には勝てず
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm26" style="display:none">
+
+    <img  src="game1/image (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       次第にパンを少しずつ齧っていく。
+       彼女は暗いトランクの中で時計もなく実感<br>
+       はなかったろうが、長く閉じ込められていた
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm27" style="display:none">
+
+    <img  src="game1/image (3).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+      彼女も相当の空腹を感じていたことだろう<br>
+      少しパンを近付けるとむしゃぶりつくよう<br>
+      に食べていく
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm28" style="display:none">
+
+    <img  src="game1/image (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+      「ふぅ……」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm28" style="display:none">
+
+    <img  src="game1/image1 (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+      お腹も落ち着いたところを見計らい、運転手は<br>
+      布とガムテープを取り出す。
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm29" style="display:none">
+
+    <img  src="game1/image1 (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       「それじゃあ、落ち着いたところでまた<br>
+       口をふさがせてもらうわね」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm30" style="display:none">
+
+    <img  src="game1/image1 (1).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       そう言われ、少女は少しビクッとなる。<br>
+       しかし抵抗したところできっと無駄だろうと<br>
+       後ろ手の縄が嫌と言うほど伝えてくる
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm31" style="display:none">
+
+    <img  src="game1/image (4).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+     「んっ……」
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm32" style="display:none">
+
+    <img  src="game1/image (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       観念したように口を開けたところを見計らって<br>
+       まずは口に布を詰め込む。
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm33" style="display:none">
+
+    <img  src="game1/image (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+       「むうううううぅっ！」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm34" style="display:none">
+
+    <img  src="game1/image (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       口いっぱいに押しこまれ、うめき声をあげ<br>
+       るにも関わらず運転手はご満悦だ
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm35" style="display:none">
+
+    <img  src="game1/image (2).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+      「さぁて、じっとしててね」
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm36" style="display:none">
+
+    <img  src="game1/image (6).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       口の布を吐き出さぬようにガムテープを<br>
+       上からピッタリと貼る。
+
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm37" style="display:none">
+
+    <img  src="game1/image (6).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+       「んんんんっ！」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm38" style="display:none">
+
+    <img  src="game1/image (6).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+       「んんんんっ！ううううっ！」
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm39" style="display:none">
+
+    <img  src="game1/image (6).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       精一杯、轡の奥から叫んでみるが空しく<br>
+       口の中の布に吸い込まれてしまうのだった
+         </p>
+    </div>
+</div>
+</div>
+
+
+
+<div id="cm40" style="display:none">
+
+    <img  src="game1/image (5).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       「それじゃあ、また。少しそこで大人しく<br>
+       してて、もらうわね」
+         </p>
+    </div>
+</div>
+</div>
+
+
+<div id="cm41" style="display:none">
+
+    <img  src="game1/image (5).png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title">少女</span>
+        <p data-text-split> 
+       「んんんんんんっ」
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm42" style="display:none">
+
+    <img  src="game1/download.png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       無情にも再びトランクのドアは閉められ再び<br>
+       車は少女を積んで走り出すのだった。
+         </p>
+    </div>
+</div>
+</div>
+
+<div id="cm43" style="display:none">
+
+    <img  src="game1/download.png"><br>
+    <div class="box27">
+        <div class="border">
+            <span class="box-title"></span>
+        <p data-text-split> 
+       fin
+         </p>
+    </div>
+</div>
+</div>
+
+
+
+
+</div>
+
+ 
+   <a href=""
+  <div class="back">
+   
+<a href="../../裏みかん農園.html">戻る</a>
+  </div>
+
+     
+  <script src="js/novel.html"></script>
+     
+<script>
+     
+  var count = 0;
+  function action(){
+  count++;
+  if (count == 3){
+    const music = new Audio('sound/nc240000.wav');
+      music.play();
+  } else if (count == 4){
+    const music = new Audio('sound/nc167182.wav');
+      music.play();
+  } else if(count == 8){
+    const music = new Audio('sound/nc248162.mp3');
+      music.play();
+  } else if(count == 9){
+      const music = new Audio('sound/mx36688.wav');
+      music.play();
+  } else if(count == 28){
+      const music = new Audio('sound/nc248161.mp3');
+      music.play();
+  }else if(count == 30){
+    const music = new Audio('sound/nc239999.wav');
+      music.play();
+  }
+  }
+  
+
+
+
+        </script>
+</body>
+</html>
